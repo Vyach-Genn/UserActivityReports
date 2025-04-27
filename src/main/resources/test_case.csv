@@ -1,0 +1,3 @@
+ssoid,ts,grp,type,subtype,url,orgid,formid,ltpa,sudirresponse,ymdh
+user123,2025-04-26 12:34:56,dszn_example,form_submission,step1,https://example.com,org1,form123,ltpa_value,sudir_response,2025-04-26
+user456,2025-04-26 12:35:12,dszn_example,form_submission,step2,https://example.com,org2,form124,ltpa_value,sudir_response,2025-04-26
