@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Top 5 Forms</title>
+</head>
+<body>
+<h1>Top 5 Most Used Forms</h1>
+<table border="1">
+    <thead>
+    <tr>
+        <th>Form ID</th>
+        <th>Usage Count</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="item : ${data}">
+        <td th:text="${item[0]}"></td> <!-- formid -->
+        <td th:text="${item[1]}"></td> <!-- count -->
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
